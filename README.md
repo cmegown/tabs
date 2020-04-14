@@ -1,7 +1,8 @@
 # tabs
 
-`npx browser-sync --watch`
+For easy local development run: `npx browser-sync --watch --no-notify --no-open`
 
 Resources:
-* [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel)
+* https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel
+* https://bbc.github.io/gel/components/tabs/
 * https://mynamesleon.github.io/aria-tablist/
