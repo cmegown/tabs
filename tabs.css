@@ -6,18 +6,47 @@
 
 body {
   margin: 0;
+  background-color: white;
   line-height: 1.5;
   font-family: sans-serif;
 }
 
-.container {
+main {
   max-width: 48em;
   margin-right: auto;
   margin-left: auto;
 }
 
-.c-tab {}
+/**/
 
-.c-tablist {}
+.container {
+  margin-bottom: 2em;
+}
 
-.c-tabpanel {}
+[role='tablist'] {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+[role='tab'] {
+  display: block;
+  margin-bottom: -0.125em;
+  padding: 1em 2em;
+  border: 0.125em solid transparent;
+  border-bottom: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+[role='tab'][aria-selected='true'] {
+  border-color: black;
+  background-color: white;
+}
+
+[role='tabpanel'] {
+  padding: 1em;
+  border: 0.125em solid;
+  background-color: white;
+}
