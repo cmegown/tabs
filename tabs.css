@@ -23,14 +23,14 @@ main {
   margin-bottom: 2em;
 }
 
-[role='tablist'] {
+.tablist[role='tablist'] {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-[role='tab'] {
+.tab[role='tab'] {
   display: block;
   margin-bottom: -0.125em;
   padding: 1em 2em;
@@ -40,12 +40,12 @@ main {
   color: inherit;
 }
 
-[role='tab'][aria-selected='true'] {
+.tab[aria-selected='true'] {
   border-color: black;
   background-color: white;
 }
 
-[role='tabpanel'] {
+.tabpanel[role='tabpanel'] {
   padding: 1em;
   border: 0.125em solid;
   background-color: white;
